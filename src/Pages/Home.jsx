@@ -1,10 +1,10 @@
 import { motion } from "motion/react";
 import { useState } from "react";
 import { useTimer } from "../Components/TimerProvider.jsx";
-import TimerDisplay from "../components/TimerDisplay.jsx";
-import Controls from "../components/Controls.jsx";
-import Settings from "../components/Settings.jsx";
-import ProgressRing from "../components/ProgressRing.jsx";
+import TimerDisplay from "../Components/TimerDisplay.jsx";
+import Controls from "../Components/Controls.jsx";
+import Settings from "../Components/Settings.jsx";
+import ProgressRing from "../Components/ProgressRing.jsx";
 
 const MODES = {
   focus: { key: "focus", label: "Focus" },
