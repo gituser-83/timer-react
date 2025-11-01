@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import Home from "./pages/Home.jsx";
-import About from "./pages/About.jsx";
+import Home from "./Pages/Home.jsx";
+import About from "./Pages/About.jsx";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("home");
