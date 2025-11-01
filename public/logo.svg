@@ -1,0 +1,21 @@
+<svg width="600" height="100" viewBox="0 0 600 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6347"/>
+      <stop offset="50%" stop-color="#FF4500"/>
+      <stop offset="100%" stop-color="#FF6347"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="64"
+        font-weight="bold"
+        fill="url(#grad)"
+        filter="url(#shadow)">
+    POMODORO
+  </text>
+</svg>
